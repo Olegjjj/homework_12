@@ -6,7 +6,6 @@ ul {
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
-    flex-direction: row;
 }
 .studio {
     font-family: 'Raleway';
@@ -18,10 +17,13 @@ ul {
     margin-right: 93px;
     margin-left: 215px;
 }
-span {
+.web {
     color: #2196F3;
 }
-#item {
+.Studio_Portfolio_Contacts {
+    display: flex;
+}
+.item {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -39,15 +41,14 @@ span {
     font-size: 14px;
     line-height: 16px;
 }
-ul:nth-child(3) {
+.email_and_number {
     display: flex;
-    flex-direction: row;
 }
 .email {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    margin-left: 335px;
+    margin-left: 310px;
 }
 .email::before {
     content: '✉';
@@ -67,7 +68,7 @@ ul:nth-child(3) {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1600px;
+    width:  100%;
     height: 600px;
     display: flex;
     align-items: center;
